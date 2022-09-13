@@ -358,7 +358,10 @@ p {
 
 .button {
   padding: 15px 30px;
-  display: block;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #0141a0;
   border-radius: 50px;
   font-size: 16px;
