@@ -53,7 +53,7 @@ p {
   bottom: -5px; }
 
 .triangle__svg_sec {
-  bottom: -4px;
+  bottom: -4.3px;
   width: 100%;
   position: relative;
   fill: rgba(1, 65, 160, 0.23); }
@@ -82,6 +82,9 @@ p {
   position: absolute;
   fill: #fff;
   bottom: -1px; }
+
+.free__discount-button-desc {
+  font-size: 16px; }
 
 .main-header {
   background: url("../img/bg/bg-header.jpg") no-repeat center top/cover; }
@@ -300,9 +303,6 @@ p {
       -ms-flex-align: center;
           align-items: center;
   background-color: #0141a0;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
   border-radius: 50px;
   color: #fff;
   -webkit-transition: background-color 0.4s;
@@ -360,12 +360,10 @@ p {
   padding: 15px 30px;
   background-color: #0141a0;
   border-radius: 50px;
+  font-size: 16px;
   color: #fff;
   -webkit-transition: background-color 0.4s;
-          transition: background-color 0.4s;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content; }
+          transition: background-color 0.4s; }
 
 .button:hover {
   background-color: #2e74dc; }
@@ -1069,7 +1067,11 @@ p {
   text-decoration: line-through; }
 
 .free__discount-button-body {
-  padding: 15px 0; }
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
 
 .free__discount-button-desc {
   font-weight: bold;
@@ -1150,7 +1152,8 @@ p {
 .why__answer-text {
   background-color: #fff;
   padding: 30px 35px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  font-size: 16px; }
 
 .why__answer-triangle {
   width: 0;
@@ -1444,7 +1447,8 @@ p {
           justify-content: center; }
 
 .min__button-subtitle {
-  padding-top: 20px; }
+  padding-top: 20px;
+  font-size: 16px; }
 
 .min__items {
   position: relative; }
@@ -2023,6 +2027,9 @@ p {
   background-color: #2e74dc;
   border-color: #2e74dc;
   color: #fff; }
+
+.doubt__link-item-title {
+  font-size: 16px; }
 
 .urok__container {
   margin: 0 auto;
